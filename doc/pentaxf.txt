@@ -1,0 +1,28 @@
+Pentax Cable Switch F for the ZX-5n and other cameras.
+
+I just purchased a Pentax Cable Switch F.  I knew it was a simple device.  So
+I got my voltmeter out.  Here are the details.
+
+It is a 3 pin device.
+It consists of a button which first activates the autofocus and then if you press
+it further it fires the shutter.  It also has a lock for extended exposures with
+the B setting.
+
+There are 3 pins and two switches internally.
+Crude ACSII drawing of the connector.
+ 
+	/^\ 
+	|1|
+	|2|
+	|3|
+	---
+
+First position - connects pins 1 and 3 and activates the autofocus
+Second position, keeps pins 1 and 3 connected and connects pins 1 and 2.
+Hence in the second position all pins are connected together.  However
+only pins 1 and 2 are needed to fire the shutter.  Just use a double
+throw single pole switch (center off) with the common connected to
+pin 1.
+
+Have fun at Radio Shack.
+Max.

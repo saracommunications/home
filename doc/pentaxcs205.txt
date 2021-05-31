@@ -1,0 +1,19 @@
+Pentax Cable Switch CS-205 for the *istD and other cameras.
+
+Matt in Britain said this about a CS-205 switch
+
+Managed to buy a CS-205 shutter release for my *istD. For those electronic savvy out there, here's the pin out:
+
+
+      2.5mm stereo plug (like a smaller headphone plug)
+      Sleeve - Common
+      Ring - Focus
+      Tip - Shutter
+
+
+Like all remotes the focus shorts to common before the shutter does. It also includes a lock facility which leaves both Focus and Shutter connected to Common.
+
+
+
+Have fun at Radio Shack.
+Max.

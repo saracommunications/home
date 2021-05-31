@@ -1,0 +1,273 @@
+<HTML>
+<!-- LIST Explanation               -->
+<!-- Last Modified on 15-DEC-96        -->
+<!--                                  -->
+  <HEAD>
+    <Title>
+     LISTS Explanation
+    </Title>
+  </HEAD>
+
+  <BODY>
+        <H2> LIST Elements </H2>
+        HTML allows one to define various types of logical lists on the screen.
+        HTML List types are:
+        <UL>
+           <li>Glossary or Dictionary List
+           <li>Directory List
+           <li>Menu List
+           <li>Ordered List
+           <li>Unordered Lists
+        </UL>
+        
+
+        <HR><!---------------------------------------------------------------->
+          <H2>Glossary (dictionary) Lists</H2>
+
+          <P>The <A HREF="dl.htm">DL</A> element declares that the
+          embedded information should be presented in the form of a Glossary
+          list. It is a sequence of terms and their descriptions. Glossary
+          (or dictionary) lists are composed of two type of elements, DT and DD.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>BLOCKQUOTE
+          <li>CENTER
+          <li>DD
+          <li>FORM
+          <li>LI
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>DT
+          <li>DD
+          </ul>
+
+          <H3>DT Attributes</H3>
+          <ul>
+                <li>COMPACT
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;DL&gt; ... &lt/DL&gt</B>
+
+             
+
+        <HR><!--------------------------------------------------------------->
+          <H2>DT Element</H2>
+
+          <P>The <A HREF="dt.htm">DT</A> element lists the name of an item
+             in a Glossary List.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>DL
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>A
+          <li>BR
+          <li>IMG
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;DT&gt; ... &lt/DT&gt;</B>
+
+
+        <HR><!--------------------------------------------------------------->
+          <H2>DD Element</H2>
+
+          <P>The <A HREF="dd.htm">DD</A> element lists the definition of
+             the preceding item (DT) in a Glossary List.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>DL
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>A
+          <li>BLOCKQUOTE
+          <li>BR
+          <li>DL
+          <li>IMG
+          <li>P
+          <li>PRE
+          <li>DIR
+          <li>MENU
+          <li>OL
+          <li>UL
+          
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;DT&gt; ... &lt/DT&gt;</B>
+
+        <HR><!---------------------------------------------------------------->
+          <H2>Directory Lists </H2>
+
+          <P>The <A HREF="dir.htm">DIR</A> element declares that the
+          embedded information should be presented in the form of a Directory.
+          It is a sequence of short items.  Many browsers will present the
+          directory as a series of columns.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>BLOCKQUOTE
+          <li>BODY
+          <li>DD
+          <li>FORM
+          <li>LI
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>LI
+          </ul>
+
+          <H3>DIR Attributes</H3>
+          <ul>
+                <li>COMPACT
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;DIR&gt; ... &lt/DIR&gt</B>
+
+
+        <HR><!---------------------------------------------------------------->
+          <H2>Menu Lists </H2>
+
+          <P>The <A HREF="menu.htm">MENU</A> element declares that the
+          embedded information should be presented in the form of a Menu.
+          It is a sequence of short items.  It is similar to the Unordered List
+          (UL) with the compact attribute.  Many browsers will present the Menu
+          identically with the UL lists.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>BLOCKQUOTE
+          <li>BODY
+          <li>DD
+          <li>FORM
+          <li>LI
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>LI
+          </ul>
+
+          <H3>MENU Attributes</H3>
+          <ul>
+                <li>none
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;MENU&gt; ... &lt/MENU&gt</B>
+
+
+        <HR><!---------------------------------------------------------------->
+          <H2>Ordered Lists </H2>
+
+          <P>The <A HREF="ol.htm">OL</A> element declares that the
+          embedded information should be presented in the form of a Ordered
+          List.  It is a sequence of items which are numerically ordered.  The
+          browsers will order the list by numbering its items.  Some browsers
+          will use ascending letters.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>BLOCKQUOTE
+          <li>BODY
+          <li>DD
+          <li>FORM
+          <li>LI
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>LI
+          </ul>
+
+          <H3>OL Attributes</H3>
+          <ul>
+                <li>COMPACT
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;OL&gt; ... &lt/OL&gt</B>
+
+
+        <HR><!---------------------------------------------------------------->
+          <H2>Unordered Lists </H2>
+
+          <P>The <A HREF="ul.htm">UL</A> element declares that the
+          embedded information should be presented in the form of an Unordered
+          List.  It is a sequence of items which are indicated by a bullet
+          or other special symbol.  Netscape allows one to define the symbol.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>BLOCKQUOTE
+          <li>BODY
+          <li>DD
+          <li>FORM
+          <li>LI
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>LI
+          </ul>
+
+          <H3>UL Attributes</H3>
+          <ul>
+                <li>COMPACT
+                <li>TYPE <i>(Netscape only)</i>
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;UL&gt; ... &lt/UL&gt</B>
+
+
+        <HR><!--------------------------------------------------------------->
+          <H2>LI Element</H2>
+
+          <P>The <A HREF="li.htm">LI</A> element is the item within a list.
+             Except for Glossary Lists, LI is used with all lists.
+
+          <H3>It can be in:</H3>
+          <ul>
+          <li>DIR
+          <li>MENU
+          <li>OL
+          <li>UL
+
+          </ul>
+
+          <H3>It can contain:</H3>
+          <ul>
+          <li>A
+          <li>BLOCKQUOTE
+          <li>BR
+          <li>FORM
+          <li>IMG
+          <li>DIR
+          <li>DL
+          <li>MENU
+          <li>OL
+          <li>UL
+          <li>P
+          <li>PRE
+          </ul>
+
+          <H3>Syntax:</H3>
+          <B>&lt;LI&gt; ... &lt/LI&gt;</B>
+
+
+
+    </BODY>
+</HTML>

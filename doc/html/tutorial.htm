@@ -1,0 +1,53 @@
+<html>
+  <!--This is the main document containing the frames            -->
+  <!--Original Creation: 10-2-96                                 -->
+  <!--Last Changed:      12-1-96  No frames Intro added          -->
+
+
+  <head>
+    <title>EKU HTML Tutorial
+
+    </title>
+  </head>
+ 
+<frameset cols="20%, 80%">
+<!--The first frameset creates 2 columns.-->
+
+<noframes>
+<!--Quick and dirty menu for non-frames capable Browsers.-->
+<B> Your browser doesn't support multiple frames! </B>
+This document is best viewed with a Frames Capable Browser.
+
+Choose one of the following:
+<ul>
+<li><a href="tags.htm">Tag Menu</a>
+<li><a href="subject.htm">Subject Menu</a>
+</ul>
+</noframes>
+
+ <frameset rows="30%, 70%">
+ <!--This divides the first column into 2 rows-->
+
+    <!--Column 1 Row 1-->
+    <frame
+     name="title"
+     src="switch.htm">
+    
+    <!--Colunm 1 Row 2-->
+    <frame
+     name="left"
+     src="tags.htm">
+    
+
+ </frameset>
+
+ <!--Column 2-->
+ <frame
+  name="right"
+  src="intro.htm"
+  marginwidth="25"
+  marginheight="25">
+ <!--Column 2-->
+
+</frameset>
+</html>
