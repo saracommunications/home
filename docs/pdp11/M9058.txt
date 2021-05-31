@@ -1,0 +1,45 @@
+M9058 - BA123 signal Distribution Board Jumper List
+
+From Table 1-1:BA123 signal Distribution Board Jumpers
+
+-----------------------------------------------------------------------------------
+Jumper		Setting		Meaning
+-----------------------------------------------------------------------------------
+
+W1, W2		Out		Grant continuity not maintained.
+W1, W2		In		Grant continuity maintained.
+
+W3		In		DRV SEL 3 connected to DS1-DS4 of J1.
+		Out		DRV SEL 3 connected to DS3 of J1.
+
+W4		In		DRV SEL 4 connected to DS1-DS4 of J2.
+		Out		DRV SEL 4 connected to DS4 of J2.
+
+W5		In		DRV SEL 1 connected to DS1-DS4 of J3.
+		Out		DRV SEL 1 connected to DS1 of J3.
+
+W6		In		DRV SEL 2 connected to DS1-DS4 of J4.
+		Out		DRV SEL 2 connected to DS2 of J4.
+
+
+TP1 to TP2			DRV SEL 1 and 2 connected to DS1 and DS2 of J11.
+TP1 to TP3			DRV SEL 2 connected to DS1 and DS2 of J11.
+-----------------------------------------------------------------------------------
+The factory position appears first.
+-----------------------------------------------------------------------------------
+
+Jumpers W3 through W6 determine the connections between the drive select lines from
+a fixed-disk controller (DRV SEL 1 through DRV SEL4) and a fixed -disk drive (DS1 
+through DS4). As long as these jumpers are inserted, you can configure the drives
+to respond to any drive select line.
+
+TP1 and TP2 determine the connections between the drive lines from a diskette drive
+controller (DRV1 through DRV4) and a diskette drive (DS1 through DS4).  For a RX50,
+connect TP1 tp TP2 for both drives.
+
+You can connect up to four fixed-disk drives (or an RX50 diskette drive and two fixed-
+drives) to the signal distribution board.  A 50-conductor ribbon cable connects the 
+board to an RQDX mass storage controller module in the card cage.  Another ribbon
+cable connects the board to the RD console boards behind the control panel. 
+
+
